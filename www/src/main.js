@@ -58,11 +58,12 @@
 	};
 
 	var showSchedule = function() {
-		replaceChildren(content,(new MatchListView(adapter)).render());
+		replaceChildren(content,(new MatchListView(adapter.getAllMatches())).render());
 	}
 
 	var showMatchList = function(date) {
-		var matchListView = new MatchListView(adapter, date);
+		var matchDaysToDisplay = adapter.getMatchesByDate(date);
+		var matchListView = new MatchListView(matchDaysToDisplay, date);
 		replaceChildren(content, matchListView.render());
 	};
 

@@ -1,7 +1,7 @@
 var MemoryAdapter = function() {
 
     this.initialize = function() {
-        // No Initialization required
+
     };
 
     var gridMenuItems =
@@ -654,7 +654,19 @@ this.getTeams = function() {
 };
 
 
+this.getMatchDaysByTeam = function(code) {
+	var matchDaysByTeam = [];
+	
+	schedule.matchDays.forEach(function(matchDay){
+		matchDay.matches.forEach(function(match){
+			if(match.team1Code === code || match.team2Code === code) {
+				matchDaysByTeam.push({ date: matchDay.date, matches : [match] });
+			}
+		});
+	});
 
+	return matchDaysByTeam;
+}
 
 
 

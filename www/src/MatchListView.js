@@ -1,4 +1,4 @@
-var MatchListView = function(adapter, date) {
+var MatchListView = function(matchesToDisplay, date) {
 
     this.initialize = function() {
         this.el = document.createElement("div");
@@ -22,11 +22,17 @@ var MatchListView = function(adapter, date) {
 			{{/ .}} ";
 
 	var matchListTemplate = Handlebars.compile(template);
-	var matchesToDisplay = date === undefined || date === null ? adapter.getAllMatches() : adapter.getMatchesByDate(date); 
-        this.el.innerHTML = matchListTemplate(matchesToDisplay);
+	var matchDaysToDisplay = [];
+
+	matchesToDisplay.forEach(function(md) {
+		matchDaysToDisplay.push({"date": formatDate(new Date(md.date)),"matches": md.matches});
+	});
+        this.el.innerHTML = matchListTemplate(matchDaysToDisplay);
         return this.el;
     };
 
+    // Instead of adapter parameter, pass matches to display to this view
+    // to display mathes for today, tomorrow and per team`
 
 
     this.initialize();
