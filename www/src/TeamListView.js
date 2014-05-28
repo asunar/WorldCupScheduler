@@ -24,13 +24,12 @@ var TeamListView = function(adapter) {
     };
 
     this.wireUpEvents = function() {
-	var buttons = this.el.children[0].children[0].children;
+	var buttons = this.el.getElementsByTagName('button');
 	// convert nodelist into an array
     	var matchesButtons = Array.prototype.slice.call(buttons, 0);
 
 	var that = this;
-	matchesButtons.forEach(function(row){
-		var button = row.children[2].children[0];
+	matchesButtons.forEach(function(button){
 		var code = button.id;
 		button.onclick = function(e) {
 		var matchDaysByTeam = adapter.getMatchDaysByTeam(code);
