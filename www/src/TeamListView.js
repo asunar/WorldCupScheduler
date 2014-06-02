@@ -7,10 +7,10 @@ var TeamListView = function(adapter) {
 
     this.render = function() {
 	var style = "style='background-color:#00CD00;color: white;font-weight:bold; font-family: helvetica; width:100%;  font-size: medium'";
-	var template = "<table border='0' " + style + " > \
+	var template = "<table id='container' border='0' " + style + " > \
 			{{# .}} \
 				<tr style='border-bottom: 1px solid #DCDCDC;'> \
-				<td style='text-align:right'><img src=images/flags/{{ code }}.png /></td> \
+				<td style='text-align:right'><div id='{{ code }}' /></td> \
 				<td >{{ name }}</td> \
 				<td style='text-align:left'><button id='{{ code }}' value='Test'>Matches</button></td> \
 				</tr> \
