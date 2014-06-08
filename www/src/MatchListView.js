@@ -13,9 +13,10 @@ var MatchListView = function(matchesToDisplay, date) {
 				<tr style='border-bottom: 1px solid #DCDCDC;'> \
 				<td style='width:5%;text-align:right'><div id='{{ team1Code }}' /></td> \
 				<td style='width:40%'>{{ team1Name }}</td> \
-				<td style='width:10%;text-align:center'>{{ time }}</td> \
+				<td style='width:5%;text-align:center'>{{ time }}</td> \
 				<td style='width:40%;text-align:right'>{{ team2Name }}</td> \
-				<td style='width:5%'><div id='{{ team1Code }}' /></td> \
+				<td style='width:5%'><div id='{{ team2Code }}' /></td> \
+				<td style='width:5%'><i class='fa fa-plus square fa-2x'></td> \
 				</tr> \
 			{{/matches}} \
 			</table> \
