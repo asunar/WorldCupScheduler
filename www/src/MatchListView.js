@@ -1,4 +1,4 @@
-var MatchListView = function(matchesToDisplay, date) {
+var MatchListView = function(matchesToDisplay) {
 
     this.initialize = function() {
         this.el = document.createElement("div");
@@ -11,12 +11,13 @@ var MatchListView = function(matchesToDisplay, date) {
 			<table id='container' " + style + " > \
 			{{#matches}} \
 				<tr style='border-bottom: 1px solid #DCDCDC;'> \
+				<td>{{ group }}</td> \
 				<td style='width:5%;text-align:right'><div id='{{ team1Code }}' /></td> \
 				<td style='width:40%'>{{ team1Name }}</td> \
 				<td style='width:5%;text-align:center'>{{ time }}</td> \
 				<td style='width:40%;text-align:right'>{{ team2Name }}</td> \
 				<td style='width:5%'><div id='{{ team2Code }}' /></td> \
-				<td style='width:5%'><i class='fa fa-plus square fa-2x'></td> \
+				<td style='width:5%'><i class='fa fa-plus square'></td> \
 				</tr> \
 			{{/matches}} \
 			</table> \

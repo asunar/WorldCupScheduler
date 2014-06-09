@@ -63,13 +63,32 @@
 
 	var showMatchList = function(date) {
 		var matchDaysToDisplay = adapter.getMatchesByDate(date);
-		var matchListView = new MatchListView(matchDaysToDisplay, date);
+		var matchListView = new MatchListView(matchDaysToDisplay);
+		replaceChildren(content, matchListView.render());
+	};
+
+	var showMatchListByTeam = function() {
+		var teamCode = getUrlVars().teamCode;
+		var matchDaysToDisplay = adapter.getMatchDaysByTeam(teamCode);
+		var matchListView = new MatchListView(matchDaysToDisplay);
+		replaceChildren(content, matchListView.render());
+	};
+
+	var showMatchListByGroup = function() {
+		var groupName = getUrlVars().group;
+		var matchDaysToDisplay = adapter.getMatchDaysByGroup(groupName);
+		var matchListView = new MatchListView(matchDaysToDisplay);
 		replaceChildren(content, matchListView.render());
 	};
 
 	var showTeams = function(){
 		var teamListView = new TeamListView(adapter);
 		replaceChildren(content, teamListView.render());
+	};
+
+	var showGroups = function(){
+		var groupListView = new GroupListView(adapter);
+		replaceChildren(content, groupListView.render());
 	};
 
 	var hashWithoutQueryString = hash;
@@ -82,8 +101,10 @@
 	'#today': showToday,
 	'#tomorrow': showTomorrow,
 	'#schedule': showSchedule,
-	'#teams': showTeams/*,
-	'#Groups': showGroups,
+	'#teams': showTeams,
+	'#groups': showGroups,
+	'#matchesByTeam' : showMatchListByTeam,
+	'#matchesByGroup' : showMatchListByGroup/*,
 	'#MySchedule': showMySchedule*/
 	};
 

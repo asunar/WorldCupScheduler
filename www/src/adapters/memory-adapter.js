@@ -36,7 +36,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-12T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group A",
+                    "group": "A",
                     "team1Name": "Brazil",
                     "team1Code": "bra",
                     "team2Name": "Croatia",
@@ -49,7 +49,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-13T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group A",
+                    "group": "A",
                     "team1Name": "Mexico",
                     "team1Code": "mex",
                     "team2Name": "Cameroon",
@@ -57,7 +57,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group B",
+                    "group": "B",
                     "team1Name": "Spain",
                     "team1Code": "esp",
                     "team2Name": "Netherlands",
@@ -65,7 +65,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group B",
+                    "group": "B",
                     "team1Name": "Chile",
                     "team1Code": "chi",
                     "team2Name": "Australia",
@@ -78,7 +78,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-14T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group C",
+                    "group": "C",
                     "team1Name": "Colombia",
                     "team1Code": "col",
                     "team2Name": "Greece",
@@ -86,7 +86,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group D",
+                    "group": "D",
                     "team1Name": "Uruguay",
                     "team1Code": "uru",
                     "team2Name": "Costa Rica",
@@ -94,7 +94,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group D",
+                    "group": "D",
                     "team1Name": "England",
                     "team1Code": "eng",
                     "team2Name": "Italy",
@@ -102,7 +102,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "18:00"
                 },
                 {
-                    "group": "Group C",
+                    "group": "C",
                     "team1Name": "Côte d'Ivoire",
                     "team1Code": "civ",
                     "team2Name": "Japan",
@@ -115,7 +115,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-15T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group E",
+                    "group": "E",
                     "team1Name": "Switzerland",
                     "team1Code": "sui",
                     "team2Name": "Ecuador",
@@ -123,7 +123,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group E",
+                    "group": "E",
                     "team1Name": "France",
                     "team1Code": "fra",
                     "team2Name": "Honduras",
@@ -131,7 +131,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group F",
+                    "group": "F",
                     "team1Name": "Argentina",
                     "team1Code": "arg",
                     "team2Name": "Bosnia and Herzegovina",
@@ -144,7 +144,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-16T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group G",
+                    "group": "G",
                     "team1Name": "Germany",
                     "team1Code": "ger",
                     "team2Name": "Portugal",
@@ -152,7 +152,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group F",
+                    "group": "F",
                     "team1Name": "Iran",
                     "team1Code": "irn",
                     "team2Name": "Nigeria",
@@ -160,7 +160,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group G",
+                    "group": "G",
                     "team1Name": "Ghana",
                     "team1Code": "gha",
                     "team2Name": "USA",
@@ -173,7 +173,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-17T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group H",
+                    "group": "H",
                     "team1Name": "Belgium",
                     "team1Code": "bel",
                     "team2Name": "Algeria",
@@ -181,7 +181,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group A",
+                    "group": "A",
                     "team1Name": "Brazil",
                     "team1Code": "bra",
                     "team2Name": "Mexico",
@@ -189,7 +189,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group H",
+                    "group": "H",
                     "team1Name": "Russia",
                     "team1Code": "rus",
                     "team2Name": "Korea Republic",
@@ -202,7 +202,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-18T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group B",
+                    "group": "B",
                     "team1Name": "Australia",
                     "team1Code": "aus",
                     "team2Name": "Netherlands",
@@ -210,7 +210,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group B",
+                    "group": "B",
                     "team1Name": "Spain",
                     "team1Code": "esp",
                     "team2Name": "Chile",
@@ -218,7 +218,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group A",
+                    "group": "A",
                     "team1Name": "Cameroon",
                     "team1Code": "cmr",
                     "team2Name": "Croatia",
@@ -231,7 +231,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-19T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group C",
+                    "group": "C",
                     "team1Name": "Colombia",
                     "team1Code": "col",
                     "team2Name": "Côte d'Ivoire",
@@ -239,7 +239,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group D",
+                    "group": "D",
                     "team1Name": "Uruguay",
                     "team1Code": "uru",
                     "team2Name": "England",
@@ -247,7 +247,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group C",
+                    "group": "C",
                     "team1Name": "Japan",
                     "team1Code": "jpn",
                     "team2Name": "Greece",
@@ -260,7 +260,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-20T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group D",
+                    "group": "D",
                     "team1Name": "Italy",
                     "team1Code": "ita",
                     "team2Name": "Costa Rica",
@@ -268,7 +268,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group E",
+                    "group": "E",
                     "team1Name": "Switzerland",
                     "team1Code": "sui",
                     "team2Name": "France",
@@ -276,7 +276,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group E",
+                    "group": "E",
                     "team1Name": "Honduras",
                     "team1Code": "hon",
                     "team2Name": "Ecuador",
@@ -289,7 +289,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-21T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group F",
+                    "group": "F",
                     "team1Name": "Argentina",
                     "team1Code": "arg",
                     "team2Name": "Iran",
@@ -297,7 +297,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group G",
+                    "group": "G",
                     "team1Name": "Germany",
                     "team1Code": "ger",
                     "team2Name": "Ghana",
@@ -305,7 +305,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group F",
+                    "group": "F",
                     "team1Name": "Nigeria",
                     "team1Code": "nga",
                     "team2Name": "Bosnia and Herzegovina",
@@ -318,7 +318,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-22T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group H",
+                    "group": "H",
                     "team1Name": "Belgium",
                     "team1Code": "bel",
                     "team2Name": "Russia",
@@ -326,7 +326,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group H",
+                    "group": "H",
                     "team1Name": "Korea Republic",
                     "team1Code": "kor",
                     "team2Name": "Algeria",
@@ -334,7 +334,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group G",
+                    "group": "G",
                     "team1Name": "USA",
                     "team1Code": "usa",
                     "team2Name": "Portugal",
@@ -347,7 +347,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-23T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group B",
+                    "group": "B",
                     "team1Name": "Netherlands",
                     "team1Code": "ned",
                     "team2Name": "Chile",
@@ -355,7 +355,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group B",
+                    "group": "B",
                     "team1Name": "Australia",
                     "team1Code": "aus",
                     "team2Name": "Spain",
@@ -363,7 +363,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group A",
+                    "group": "A",
                     "team1Name": "Cameroon",
                     "team1Code": "cmr",
                     "team2Name": "Brazil",
@@ -371,7 +371,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "17:00"
                 },
                 {
-                    "group": "Group A",
+                    "group": "A",
                     "team1Name": "Croatia",
                     "team1Code": "cro",
                     "team2Name": "Mexico",
@@ -384,7 +384,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-24T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group D",
+                    "group": "D",
                     "team1Name": "Italy",
                     "team1Code": "ita",
                     "team2Name": "Uruguay",
@@ -392,7 +392,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group D",
+                    "group": "D",
                     "team1Name": "Costa Rica",
                     "team1Code": "crc",
                     "team2Name": "England",
@@ -400,7 +400,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group C",
+                    "group": "C",
                     "team1Name": "Japan",
                     "team1Code": "jpn",
                     "team2Name": "Colombia",
@@ -408,7 +408,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group C",
+                    "group": "C",
                     "team1Name": "Greece",
                     "team1Code": "gre",
                     "team2Name": "Côte d'Ivoire",
@@ -421,7 +421,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-25T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group F",
+                    "group": "F",
                     "team1Name": "Nigeria",
                     "team1Code": "nga",
                     "team2Name": "Argentina",
@@ -429,7 +429,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group F",
+                    "group": "F",
                     "team1Name": "Bosnia and Herzegovina",
                     "team1Code": "bih",
                     "team2Name": "Iran",
@@ -437,7 +437,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group E",
+                    "group": "E",
                     "team1Name": "Honduras",
                     "team1Code": "hon",
                     "team2Name": "Switzerland",
@@ -445,7 +445,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "16:00"
                 },
                 {
-                    "group": "Group E",
+                    "group": "E",
                     "team1Name": "Ecuador",
                     "team1Code": "ecu",
                     "team2Name": "France",
@@ -458,7 +458,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
             "date": "2014-06-26T00:00:00-05:00",
             "matches": [
                 {
-                    "group": "Group G",
+                    "group": "G",
                     "team1Name": "Portugal",
                     "team1Code": "por",
                     "team2Name": "Ghana",
@@ -466,7 +466,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group G",
+                    "group": "G",
                     "team1Name": "USA",
                     "team1Code": "usa",
                     "team2Name": "Germany",
@@ -474,7 +474,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "13:00"
                 },
                 {
-                    "group": "Group H",
+                    "group": "H",
                     "team1Name": "Korea Republic",
                     "team1Code": "kor",
                     "team2Name": "Belgium",
@@ -482,7 +482,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
                     "time": "17:00"
                 },
                 {
-                    "group": "Group H",
+                    "group": "H",
                     "team1Name": "Algeria",
                     "team1Code": "alg",
                     "team2Name": "Russia",
@@ -724,7 +724,7 @@ this.getTeams = function() {
 this.getGroups = function(){
 	var groups =[
     {
-        "name": "Group A",
+        "name": "A",
         "teams": [
             {
                 "code": "bra",
@@ -745,7 +745,7 @@ this.getGroups = function(){
         ]
     },
     {
-        "name": "Group B",
+        "name": "B",
         "teams": [
             {
                 "code": "esp",
@@ -766,7 +766,7 @@ this.getGroups = function(){
         ]
     },
     {
-        "name": "Group C",
+        "name": "C",
         "teams": [
             {
                 "code": "col",
@@ -787,7 +787,7 @@ this.getGroups = function(){
         ]
     },
     {
-        "name": "Group D",
+        "name": "D",
         "teams": [
             {
                 "code": "uru",
@@ -808,7 +808,7 @@ this.getGroups = function(){
         ]
     },
     {
-        "name": "Group E",
+        "name": "E",
         "teams": [
             {
                 "code": "sui",
@@ -829,7 +829,7 @@ this.getGroups = function(){
         ]
     },
     {
-        "name": "Group F",
+        "name": "F",
         "teams": [
             {
                 "code": "arg",
@@ -850,7 +850,7 @@ this.getGroups = function(){
         ]
     },
     {
-        "name": "Group G",
+        "name": "G",
         "teams": [
             {
                 "code": "ger",
@@ -871,7 +871,7 @@ this.getGroups = function(){
         ]
     },
     {
-        "name": "Group H",
+        "name": "H",
         "teams": [
             {
                 "code": "bel",
@@ -892,7 +892,8 @@ this.getGroups = function(){
         ]
     }
 ];
-
+ return groups;
+};
 
 this.getMatchDaysByTeam = function(code) {
 	var matchDaysByTeam = [];
@@ -906,7 +907,26 @@ this.getMatchDaysByTeam = function(code) {
 	});
 
 	return matchDaysByTeam;
-}
+};
+
+this.getMatchDaysByGroup = function(groupName) {
+	var matchDaysByGroup = [];
+	
+	schedule.matchDays.forEach(function(matchDay){
+		var groupMatchDay = { "date" : matchDay.date };
+		groupMatchDay.matches = [];
+		matchDay.matches.forEach(function(match){
+			if(match.group === groupName) {
+				groupMatchDay.matches.push(match);
+			}
+		});
+		if(groupMatchDay.matches.length > 0) {
+			matchDaysByGroup.push(groupMatchDay);
+		}
+	});
+
+	return matchDaysByGroup;
+};
 
 var mySchedule = [];
 
