@@ -21,6 +21,8 @@ var MatchListView = function(matchesToDisplay) {
 				</tr> \
 			{{/matches}} \
 			</table> \
+			{{ else }}	\
+			  <p style='color:green; font-weight:bold; font-family: helvetica;'>No match on this date</p> \
 			{{/ .}} ";
 
 	var matchListTemplate = Handlebars.compile(template);

@@ -45,12 +45,12 @@
 
 	
 	var showToday = function() {
-		var today = new Date(2014, 5, 14);
+		var today = new Date();
 		showMatchList(today);
 	};
 	
 	var showTomorrow = function() {
-		var today = new Date(2014, 5, 14); 
+		var today = new Date(); 
 		var tomorrowTicks   =  today.setDate(today.getDate()+1);
 		var tomorrow = new Date(tomorrowTicks);
 		showMatchList(tomorrow);
