@@ -46,14 +46,16 @@
 	
 	var showToday = function() {
 		var today = new Date();
-		showMatchList(today);
+		var todayWithoutTime = stripTimeFromDate(today);
+		showMatchList(todayWithoutTime);
 	};
 	
 	var showTomorrow = function() {
 		var today = new Date(); 
 		var tomorrowTicks   =  today.setDate(today.getDate()+1);
 		var tomorrow = new Date(tomorrowTicks);
-		showMatchList(tomorrow);
+		var tomorrowWithoutTime = stripTimeFromDate(tomorrow);
+		showMatchList(tomorrowWithoutTime);
 
 	};
 

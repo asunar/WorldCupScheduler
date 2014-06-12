@@ -19,3 +19,7 @@ function formatDate(date) {
 	return dayName + " " + date.getDate() + " " + monthName;
 
 }
+
+function stripTimeFromDate(date) {
+	return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+}
