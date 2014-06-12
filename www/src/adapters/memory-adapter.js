@@ -42,7 +42,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "bra",
           "team2Name": "Croatia",
           "team2Code": "cro",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -56,7 +56,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "mex",
           "team2Name": "Cameroon",
           "team2Code": "cmr",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186510",
@@ -65,7 +65,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "esp",
           "team2Name": "Netherlands",
           "team2Code": "ned",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186473",
@@ -74,7 +74,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "chi",
           "team2Name": "Australia",
           "team2Code": "aus",
-          "time": "18:00"
+          "time": "16:00"
         }
       ]
     },
@@ -88,7 +88,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "col",
           "team2Name": "Greece",
           "team2Code": "gre",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186489",
@@ -97,7 +97,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "uru",
           "team2Name": "Costa Rica",
           "team2Code": "crc",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186513",
@@ -106,7 +106,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "eng",
           "team2Name": "Italy",
           "team2Code": "ita",
-          "time": "18:00"
+          "time": "16:00"
         },
         {
           "matchId": "300186507",
@@ -115,7 +115,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "civ",
           "team2Name": "Japan",
           "team2Code": "jpn",
-          "time": "22:00"
+          "time": "20:00"
         }
       ]
     },
@@ -129,7 +129,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "sui",
           "team2Name": "Ecuador",
           "team2Code": "ecu",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186496",
@@ -138,7 +138,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "fra",
           "team2Name": "Honduras",
           "team2Code": "hon",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186477",
@@ -147,7 +147,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "arg",
           "team2Name": "Bosnia and Herzegovina",
           "team2Code": "bih",
-          "time": "19:00"
+          "time": "17:00"
         }
       ]
     },
@@ -161,7 +161,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "ger",
           "team2Name": "Portugal",
           "team2Code": "por",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186505",
@@ -170,7 +170,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "irn",
           "team2Name": "Nigeria",
           "team2Code": "nga",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186512",
@@ -179,7 +179,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "gha",
           "team2Name": "USA",
           "team2Code": "usa",
-          "time": "19:00"
+          "time": "17:00"
         }
       ]
     },
@@ -193,7 +193,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "bel",
           "team2Name": "Algeria",
           "team2Code": "alg",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186509",
@@ -202,7 +202,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "bra",
           "team2Name": "Mexico",
           "team2Code": "mex",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186499",
@@ -211,7 +211,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "rus",
           "team2Name": "Korea Republic",
           "team2Code": "kor",
-          "time": "18:00"
+          "time": "16:00"
         }
       ]
     },
@@ -225,7 +225,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "aus",
           "team2Name": "Netherlands",
           "team2Code": "ned",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186498",
@@ -234,7 +234,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "esp",
           "team2Name": "Chile",
           "team2Code": "chi",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186453",
@@ -243,7 +243,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "cmr",
           "team2Name": "Croatia",
           "team2Code": "cro",
-          "time": "18:00"
+          "time": "16:00"
         }
       ]
     },
@@ -257,7 +257,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "col",
           "team2Name": "Côte d'Ivoire",
           "team2Code": "civ",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186486",
@@ -266,7 +266,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "uru",
           "team2Name": "England",
           "team2Code": "eng",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186454",
@@ -275,7 +275,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "jpn",
           "team2Name": "Greece",
           "team2Code": "gre",
-          "time": "19:00"
+          "time": "17:00"
         }
       ]
     },
@@ -289,7 +289,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "ita",
           "team2Name": "Costa Rica",
           "team2Code": "crc",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186514",
@@ -298,7 +298,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "sui",
           "team2Name": "France",
           "team2Code": "fra",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186463",
@@ -307,7 +307,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "hon",
           "team2Name": "Ecuador",
           "team2Code": "ecu",
-          "time": "19:00"
+          "time": "17:00"
         }
       ]
     },
@@ -321,7 +321,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "arg",
           "team2Name": "Iran",
           "team2Code": "irn",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186493",
@@ -330,7 +330,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "ger",
           "team2Name": "Ghana",
           "team2Code": "gha",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186511",
@@ -339,7 +339,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "nga",
           "team2Name": "Bosnia and Herzegovina",
           "team2Code": "bih",
-          "time": "18:00"
+          "time": "16:00"
         }
       ]
     },
@@ -353,7 +353,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "bel",
           "team2Name": "Russia",
           "team2Code": "rus",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186495",
@@ -362,7 +362,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "kor",
           "team2Name": "Algeria",
           "team2Code": "alg",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186483",
@@ -371,7 +371,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "usa",
           "team2Name": "Portugal",
           "team2Code": "por",
-          "time": "18:00"
+          "time": "16:00"
         }
       ]
     },
@@ -385,7 +385,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "ned",
           "team2Name": "Chile",
           "team2Code": "chi",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186467",
@@ -394,7 +394,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "aus",
           "team2Name": "Spain",
           "team2Code": "esp",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186472",
@@ -403,7 +403,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "cmr",
           "team2Name": "Brazil",
           "team2Code": "bra",
-          "time": "17:00"
+          "time": "15:00"
         },
         {
           "matchId": "300186452",
@@ -412,7 +412,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "cro",
           "team2Name": "Mexico",
           "team2Code": "mex",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -426,7 +426,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "ita",
           "team2Name": "Uruguay",
           "team2Code": "uru",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186484",
@@ -435,7 +435,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "crc",
           "team2Name": "England",
           "team2Code": "eng",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186457",
@@ -444,7 +444,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "jpn",
           "team2Name": "Colombia",
           "team2Code": "col",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186455",
@@ -453,7 +453,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "gre",
           "team2Name": "Côte d'Ivoire",
           "team2Code": "civ",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -467,7 +467,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "nga",
           "team2Name": "Argentina",
           "team2Code": "arg",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186464",
@@ -476,7 +476,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "bih",
           "team2Name": "Iran",
           "team2Code": "irn",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186482",
@@ -485,7 +485,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "hon",
           "team2Name": "Switzerland",
           "team2Code": "sui",
-          "time": "16:00"
+          "time": "14:00"
         },
         {
           "matchId": "300186515",
@@ -494,7 +494,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "ecu",
           "team2Name": "France",
           "team2Code": "fra",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -508,7 +508,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "por",
           "team2Name": "Ghana",
           "team2Code": "gha",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186469",
@@ -517,7 +517,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "usa",
           "team2Name": "Germany",
           "team2Code": "ger",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186480",
@@ -526,7 +526,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "kor",
           "team2Name": "Belgium",
           "team2Code": "bel",
-          "time": "17:00"
+          "time": "15:00"
         },
         {
           "matchId": "300186506",
@@ -535,7 +535,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "alg",
           "team2Name": "Russia",
           "team2Code": "rus",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -549,7 +549,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[1a]",
           "team2Name": "[2B]",
           "team2Code": "[2b]",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186491",
@@ -558,7 +558,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[1c]",
           "team2Name": "[2D]",
           "team2Code": "[2d]",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -572,7 +572,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[1b]",
           "team2Name": "[2A]",
           "team2Code": "[2a]",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186459",
@@ -581,7 +581,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[1d]",
           "team2Name": "[2C]",
           "team2Code": "[2c]",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -595,7 +595,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[1e]",
           "team2Name": "[2F]",
           "team2Code": "[2f]",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186460",
@@ -604,7 +604,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[1g]",
           "team2Name": "[2H]",
           "team2Code": "[2h]",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -618,7 +618,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[1f]",
           "team2Name": "[2E]",
           "team2Code": "[2e]",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186497",
@@ -627,7 +627,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[1h]",
           "team2Name": "[2G]",
           "team2Code": "[2g]",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -641,7 +641,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[w53]",
           "team2Name": "[W54]",
           "team2Code": "[w54]",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186461",
@@ -650,7 +650,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[w49]",
           "team2Name": "[W50]",
           "team2Code": "[w50]",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -664,7 +664,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[w55]",
           "team2Name": "[W56]",
           "team2Code": "[w56]",
-          "time": "13:00"
+          "time": "11:00"
         },
         {
           "matchId": "300186488",
@@ -673,7 +673,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[w51]",
           "team2Name": "[W52]",
           "team2Code": "[w52]",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -687,7 +687,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[w57]",
           "team2Name": "[W58]",
           "team2Code": "[w58]",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -701,7 +701,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[w59]",
           "team2Name": "[W60]",
           "team2Code": "[w60]",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -715,7 +715,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[l61]",
           "team2Name": "[L62]",
           "team2Code": "[l62]",
-          "time": "17:00"
+          "time": "15:00"
         }
       ]
     },
@@ -729,7 +729,7 @@ this.getGridMenuItems = function() { return gridMenuItems; };
           "team1Code": "[w61]",
           "team2Name": "[W62]",
           "team2Code": "[w62]",
-          "time": "16:00"
+          "time": "14:00"
         }
       ]
     }
