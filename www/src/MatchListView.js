@@ -17,7 +17,7 @@ var MatchListView = function(matchesToDisplay, adapter) {
 				<td style='width:5%;text-align:center'>{{ time }}</td> \
 				<td style='width:40%;text-align:right'>{{ team2Name }}</td> \
 				<td style='width:5%'><div id='{{ team2Code }}' /></td> \
-				<td style='width:5%'><i data-match='{{../date}} 2014|{{matchId}}|{{group}}|{{team1Code}}|{{team1Name}}|{{team2Code}}|{{team2Name}}' class='fa fa-{{#if isInMySchedule }}minus{{else}}plus{{/if}} square'></td> \
+				<td style='width:5%'><i data-match='{{../date}} 2014|{{matchId}}|{{group}}|{{team1Code}}|{{team1Name}}|{{team2Code}}|{{team2Name}}|{{time}}' class='fa fa-{{#if isInMySchedule }}minus{{else}}plus{{/if}} square'></td> \
 				</tr> \
 			{{/matches}} \
 			</table> \
@@ -45,7 +45,7 @@ var MatchListView = function(matchesToDisplay, adapter) {
 		button.onclick = function(e) {
 		var matchData = this.dataset.match;
 		var matchDataInfo = matchData.split("|");
-		matchData = { "date" : new Date(matchDataInfo[0]), "matches" :[{"matchId": matchDataInfo[1] , "group": matchDataInfo[2], "team1Code": matchDataInfo[3], "team1Name": matchDataInfo[4], "team2Code" : matchDataInfo[5], "team2Name" : matchDataInfo[6] }] };
+		matchData = { "date" : new Date(matchDataInfo[0]), "matches" :[{"matchId": matchDataInfo[1] , "group": matchDataInfo[2], "team1Code": matchDataInfo[3], "team1Name": matchDataInfo[4], "team2Code" : matchDataInfo[5], "team2Name" : matchDataInfo[6], "time": matchDataInfo[7] }] };
 		var isAdding = this.classList.contains("fa-plus");
 		
 		if(isAdding) {
