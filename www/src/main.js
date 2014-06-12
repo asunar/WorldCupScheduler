@@ -58,26 +58,26 @@
 	};
 
 	var showSchedule = function() {
-		replaceChildren(content,(new MatchListView(adapter.getAllMatches())).render());
+		replaceChildren(content,(new MatchListView(adapter.getAllMatches(), adapter)).render());
 	}
 
 	var showMatchList = function(date) {
 		var matchDaysToDisplay = adapter.getMatchesByDate(date);
-		var matchListView = new MatchListView(matchDaysToDisplay);
+		var matchListView = new MatchListView(matchDaysToDisplay, adapter);
 		replaceChildren(content, matchListView.render());
 	};
 
 	var showMatchListByTeam = function() {
 		var teamCode = getUrlVars().teamCode;
 		var matchDaysToDisplay = adapter.getMatchDaysByTeam(teamCode);
-		var matchListView = new MatchListView(matchDaysToDisplay);
+		var matchListView = new MatchListView(matchDaysToDisplay, adapter);
 		replaceChildren(content, matchListView.render());
 	};
 
 	var showMatchListByGroup = function() {
 		var groupName = getUrlVars().group;
 		var matchDaysToDisplay = adapter.getMatchDaysByGroup(groupName);
-		var matchListView = new MatchListView(matchDaysToDisplay);
+		var matchListView = new MatchListView(matchDaysToDisplay, adapter);
 		replaceChildren(content, matchListView.render());
 	};
 
@@ -89,6 +89,12 @@
 	var showGroups = function(){
 		var groupListView = new GroupListView(adapter);
 		replaceChildren(content, groupListView.render());
+	};
+
+	var showMySchedule = function(){
+		var mySchedule = adapter.getMySchedule();
+		var matchListView = new MatchListView(mySchedule, adapter);
+		replaceChildren(content, matchListView.render());
 	};
 
 	var hashWithoutQueryString = hash;
@@ -104,8 +110,8 @@
 	'#teams': showTeams,
 	'#groups': showGroups,
 	'#matchesByTeam' : showMatchListByTeam,
-	'#matchesByGroup' : showMatchListByGroup/*,
-	'#MySchedule': showMySchedule*/
+	'#matchesByGroup' : showMatchListByGroup,
+	'#mySchedule': showMySchedule
 	};
 
 	routeTable[hashWithoutQueryString]();

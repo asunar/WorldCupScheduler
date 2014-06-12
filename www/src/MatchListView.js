@@ -1,4 +1,4 @@
-var MatchListView = function(matchesToDisplay) {
+var MatchListView = function(matchesToDisplay, adapter) {
 
     this.initialize = function() {
         this.el = document.createElement("div");
@@ -7,7 +7,7 @@ var MatchListView = function(matchesToDisplay) {
     this.render = function() {
 	var style = "style='background-color:#00CD00;color: white;font-weight:bold; font-family: helvetica; width:100%;  font-size: medium'";
 	var template = "{{# .}} \
-			<div style='border-bottom: solid 1px #474747;' >{{ date }} </div> \
+			<div style='border-bottom: solid 1px #474747;text-decoration:none;color:green; font-weight:bold; font-family: helvetica;' >{{ date }} </div> \
 			<table id='container' " + style + " > \
 			{{#matches}} \
 				<tr style='border-bottom: 1px solid #DCDCDC;'> \
@@ -17,7 +17,7 @@ var MatchListView = function(matchesToDisplay) {
 				<td style='width:5%;text-align:center'>{{ time }}</td> \
 				<td style='width:40%;text-align:right'>{{ team2Name }}</td> \
 				<td style='width:5%'><div id='{{ team2Code }}' /></td> \
-				<td style='width:5%'><i class='fa fa-plus square'></td> \
+				<td style='width:5%'><i data-match='{{../date}} 2014|{{matchId}}|{{group}}|{{team1Code}}|{{team1Name}}|{{team2Code}}|{{team2Name}}' class='fa fa-{{#if isInMySchedule }}minus{{else}}plus{{/if}} square'></td> \
 				</tr> \
 			{{/matches}} \
 			</table> \
@@ -32,9 +32,34 @@ var MatchListView = function(matchesToDisplay) {
 		matchDaysToDisplay.push({"date": formatDate(new Date(md.date)),"matches": md.matches});
 	});
         this.el.innerHTML = matchListTemplate(matchDaysToDisplay);
+	this.wireUpEvents(adapter);
         return this.el;
     };
 
+    this.wireUpEvents = function(adapter) {
+	var buttons = this.el.getElementsByTagName('i');
+	// convert nodelist into an array
+	var addButtons = Array.prototype.slice.call(buttons, 0);
 
+	addButtons.forEach(function(button){
+		button.onclick = function(e) {
+		var matchData = this.dataset.match;
+		var matchDataInfo = matchData.split("|");
+		matchData = { "date" : new Date(matchDataInfo[0]), "matches" :[{"matchId": matchDataInfo[1] , "group": matchDataInfo[2], "team1Code": matchDataInfo[3], "team1Name": matchDataInfo[4], "team2Code" : matchDataInfo[5], "team2Name" : matchDataInfo[6] }] };
+		var isAdding = this.classList.contains("fa-plus");
+		
+		if(isAdding) {
+			adapter.addToMySchedule(matchData);
+			this.classList.remove("fa-plus");
+			this.classList.add("fa-minus");
+		} else {
+			adapter.removeFromMySchedule(matchData);
+			this.classList.remove("fa-minus");
+			this.classList.add("fa-plus");		
+		}
+		};
+
+	});
+    }
     this.initialize();
 }
