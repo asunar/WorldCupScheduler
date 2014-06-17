@@ -744,7 +744,10 @@ this.getGridMenuItems = function() { return gridMenuItems; };
 this.getAllMatches = function() { return this.getSchedule().matchDays; };
 this.getMatchesByDate = function(date) { 
 		return this.getSchedule().matchDays.filter(function(matchDay) {
-							return new Date(matchDay.date).getTime() === date.getTime(); 
+							return matchDay.date.getFullYear() === date.getFullYear() && 
+								matchDay.date.getMonth() === date.getMonth() && 
+								matchDay.date.getDate() === date.getDate(); 
+
 						});
 		};
 
