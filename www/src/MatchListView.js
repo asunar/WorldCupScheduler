@@ -17,7 +17,7 @@ var MatchListView = function(matchesToDisplay, adapter) {
 				<td style='width:5%;text-align:center'>{{ time }}</td> \
 				<td style='width:40%;text-align:right'>{{ team2Name }}</td> \
 				<td style='width:5%'><div id='{{ team2Code }}' /></td> \
-				<td style='width:5%'><i data-match='{{../date}} 2014|{{matchId}}|{{group}}|{{team1Code}}|{{team1Name}}|{{team2Code}}|{{team2Name}}|{{time}}' class='fa fa-{{#if isInMySchedule }}minus{{else}}plus{{/if}} square'></td> \
+				<td style='width:5%'><i data-match='{{../date}} 2014|{{matchId}}' class='fa fa-{{#if isInMySchedule }}minus{{else}}plus{{/if}} square'></td> \
 				</tr> \
 			{{/matches}} \
 			</table> \
@@ -29,7 +29,13 @@ var MatchListView = function(matchesToDisplay, adapter) {
 	var matchDaysToDisplay = [];
 
 	matchesToDisplay.forEach(function(md) {
-		matchDaysToDisplay.push({"date": formatDate(new Date(md.date)),"matches": md.matches});
+		var matches = md.matches.map(function(m){
+			var d = new Date(md.date);
+			d.setUTCHours(m.time.split(':')[0]);
+			return { "group" : m.group, "matchId" : m.matchId, "team1Code": m.team1Code, "team2Code" : m.team2Code, "team1Name": m.team1Name, "team2Name" : m.team2Name, "time" : d.getHours() + ":00", "isInMySchedule" : adapter.isMatchInMySchedule(m.matchId)  };
+			
+		});
+		matchDaysToDisplay.push({"date": formatDate(new Date(md.date)),"matches": matches});
 	});
         this.el.innerHTML = matchListTemplate(matchDaysToDisplay);
 	this.wireUpEvents(adapter);
@@ -45,15 +51,15 @@ var MatchListView = function(matchesToDisplay, adapter) {
 		button.onclick = function(e) {
 		var matchData = this.dataset.match;
 		var matchDataInfo = matchData.split("|");
-		matchData = { "date" : new Date(matchDataInfo[0]), "matches" :[{"matchId": matchDataInfo[1] , "group": matchDataInfo[2], "team1Code": matchDataInfo[3], "team1Name": matchDataInfo[4], "team2Code" : matchDataInfo[5], "team2Name" : matchDataInfo[6], "time": matchDataInfo[7] }] };
+		matchData = { "date" : new Date(matchDataInfo[0]), "matches" :[{"matchId": matchDataInfo[1] } ]};
 		var isAdding = this.classList.contains("fa-plus");
 		
 		if(isAdding) {
-			adapter.addToMySchedule(matchData);
+			adapter.addToMySchedule(matchDataInfo[1]);
 			this.classList.remove("fa-plus");
 			this.classList.add("fa-minus");
 		} else {
-			adapter.removeFromMySchedule(matchData);
+			adapter.removeFromMySchedule(matchDataInfo[1]);
 			this.classList.remove("fa-minus");
 			this.classList.add("fa-plus");		
 		}
