@@ -1043,7 +1043,7 @@ this.save = function(mySchedule) {
 
 this.getMatchesInMySchedule = function() {
 	var matchesInMySchedule = localStorage["WCS:MySchedule"];
-	if(matchesInMySchedule === 'undefined') {
+	if(matchesInMySchedule === 'undefined' || matchesInMySchedule === undefined) {
 		return [];
 	}
 	return JSON.parse(matchesInMySchedule);
