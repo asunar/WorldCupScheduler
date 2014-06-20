@@ -1,4 +1,4 @@
-var MemoryAdapter = function() {
+var LocalStorageAdapter = function() {
 
     this.initialize = function() {
     var schedule =
@@ -1034,10 +1034,6 @@ this.addToMySchedule = function(matchId){
 
 this.saveMatchesInMySchedule = function(matchesInMySchedule) {
 	localStorage.setItem("WCS:MySchedule", JSON.stringify(matchesInMySchedule));
-};
-
-this.save = function(mySchedule) {
-	localStorage.setItem("WCS:Schedule", JSON.stringify(mySchedule));
 };
 
 

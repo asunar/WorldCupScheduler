@@ -2,7 +2,7 @@
 (function() {
 
     /* ---------------------------------- Local Variables ---------------------------------- */
-    var adapter = new MemoryAdapter();
+    var adapter = new LocalStorageAdapter();
 
     /* --------------------------------- Event Registration -------------------------------- */
 
@@ -16,13 +16,6 @@
 
     /* ---------------------------------- Local Functions ---------------------------------- */
 
-    function configureMenu(hash) {
-        var defaultPage = '#Tags';
-        var destinationPage = hash || defaultPage;
-        //$('#menu').innerHTML = (new MenuView(destinationPage, menuTemplate).render());
-
-    }
-
     function replaceChildren(parentElement, children) {
 	parentElement.innerHTML = '';
 	parentElement.appendChild(children);
@@ -30,7 +23,6 @@
 
     function route() {
         var hash = window.location.hash;
-        configureMenu(hash);
 
 	var content = $('#content');
 
