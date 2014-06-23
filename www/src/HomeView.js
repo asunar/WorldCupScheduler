@@ -5,13 +5,12 @@ var HomeView = function(adapter) {
     };
 
     this.render = function() {
-	var style = "style='background-color:#00CD00; color:white; font-weight: bolder; font-family: helvetica;border-collapse:collapse;border-color:white; width:100%; height:100%; font-size: larger'";    
-	var template = "<table border='1' " + style + " > \
+	var template = "<table border='1' class='gridMenuContainer' > \
 				{{#each rows}} \
 				<tr> \
 					{{#.}} \
 					<td class='gridMenuItem'> \
-						<a href={{ url }} style='color:white;text-decoration:none'> \
+						<a href={{ url }} class='navBarItem' > \
 						<i class='{{ icon }}'></i><div>{{ label }}</div> \
 						</a> \
 					</td> \
