@@ -517,20 +517,20 @@ var LocalStorageAdapter = function() {
       "matches": [
         {
           "matchId": "300186487",
-          "group": "Round of 16",
-          "team1Name": "[1A]",
-          "team1Code": "[1a]",
-          "team2Name": "[2B]",
-          "team2Code": "[2b]",
+          "group": "R16",
+          "team1Name": "Brazil",
+          "team1Code": "bra",
+          "team2Name": "Chile",
+          "team2Code": "chi",
           "time": "16:00"
         },
         {
           "matchId": "300186491",
-          "group": "Round of 16",
-          "team1Name": "[1C]",
-          "team1Code": "[1c]",
-          "team2Name": "[2D]",
-          "team2Code": "[2d]",
+          "group": "R16",
+          "team1Name": "Colombia",
+          "team1Code": "col",
+          "team2Name": "Uruguay",
+          "team2Code": "uru",
           "time": "20:00"
         }
       ]
@@ -540,20 +540,20 @@ var LocalStorageAdapter = function() {
       "matches": [
         {
           "matchId": "300186508",
-          "group": "Round of 16",
-          "team1Name": "[1B]",
-          "team1Code": "[1b]",
-          "team2Name": "[2A]",
-          "team2Code": "[2a]",
+          "group": "R16",
+          "team1Name": "Netherlands",
+          "team1Code": "ned",
+          "team2Name": "Mexico",
+          "team2Code": "mex",
           "time": "16:00"
         },
         {
           "matchId": "300186459",
-          "group": "Round of 16",
-          "team1Name": "[1D]",
-          "team1Code": "[1d]",
-          "team2Name": "[2C]",
-          "team2Code": "[2c]",
+          "group": "R16",
+          "team1Name": "Costa Rica",
+          "team1Code": "crc",
+          "team2Name": "Greece",
+          "team2Code": "gre",
           "time": "20:00"
         }
       ]
@@ -563,16 +563,16 @@ var LocalStorageAdapter = function() {
       "matches": [
         {
           "matchId": "300186462",
-          "group": "Round of 16",
-          "team1Name": "[1E]",
-          "team1Code": "[1e]",
-          "team2Name": "[2F]",
-          "team2Code": "[2f]",
+          "group": "R16",
+          "team1Name": "France",
+          "team1Code": "fra",
+          "team2Name": "Nigeria",
+          "team2Code": "nga",
           "time": "16:00"
         },
         {
           "matchId": "300186460",
-          "group": "Round of 16",
+          "group": "R16",
           "team1Name": "[1G]",
           "team1Code": "[1g]",
           "team2Name": "[2H]",
@@ -586,16 +586,16 @@ var LocalStorageAdapter = function() {
       "matches": [
         {
           "matchId": "300186503",
-          "group": "Round of 16",
-          "team1Name": "[1F]",
-          "team1Code": "[1f]",
-          "team2Name": "[2E]",
-          "team2Code": "[2e]",
+          "group": "R16",
+          "team1Name": "Argentina",
+          "team1Code": "arg",
+          "team2Name": "Switzerland",
+          "team2Code": "sui",
           "time": "16:00"
         },
         {
           "matchId": "300186497",
-          "group": "Round of 16",
+          "group": "R16",
           "team1Name": "[1H]",
           "team1Code": "[1h]",
           "team2Name": "[2G]",
